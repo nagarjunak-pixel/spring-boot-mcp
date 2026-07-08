@@ -1,0 +1,16 @@
+{
+  "name": "spring-boot-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for Java Spring Boot applications — Actuator, REST API, logs, and more",
+  "type": "commonjs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "inspector": "npx @modelcontextprotocol/inspector node src/index.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.12.1",
+    "axios": "^1.7.9",
+    "zod": "^3.23.8"
+  }
+}
